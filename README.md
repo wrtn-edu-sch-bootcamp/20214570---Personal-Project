@@ -90,7 +90,7 @@ npm run dev
 | 도구 | 설명 |
 |------|------|
 | `secure_code` | 코드에 시큐어코딩 적용 (스캔 + 자동수정 + 리포트) |
-| `check_dependency` | 의존성 취약점 검사 (OSV.dev + NVD) |
+| `check_dependency` | 의존성 취약점 검사 (내장 DB 기반) |
 | `generate_secure_code` | 보안이 적용된 코드 템플릿 생성 |
 | `secure_develop` | 보안 개발 가이드 제공 |
 | `audit_config` | 설정 파일 보안 감사 |
@@ -102,7 +102,7 @@ npm run dev
 |--------|-----|------|
 | `security-blueprints` | `security://blueprints` | 기능별 보안 설계 블루프린트 (로그인, 게시판, 파일업로드 등) |
 | `cwe-database` | `security://cwe-database` | CWE 취약점 데이터베이스 |
-| `owasp-top10` | `security://owasp-top10` | OWASP Top 10 2021 위협 목록 |
+| `owasp-top10` | `security://owasp-top10` | OWASP Top 10 2025 위협 목록 |
 | `secure-patterns` | `security://secure-patterns` | 시큐어코딩 패턴 라이브러리 |
 
 ## 테스트
